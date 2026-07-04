@@ -11,7 +11,7 @@ keywords: tailwind ui components, tailwind css components, tailwind component li
 
 ## Tailwind UI components is about control
 
-Tailwind CSS is used to style interfaces with utility classes in markup. Instead of creating a custom CSS selector for every element, you compose spacing, color, typography, layout, and state classes where the HTML lives.
+[Tailwind CSS](/pages/tailwind-css-alternative/) is used to style interfaces with utility classes in markup. Instead of creating a custom CSS selector for every element, you compose spacing, color, typography, layout, and state classes where the HTML lives.
 
 That model works because it keeps styling close to the element. It also makes design tokens easier to reuse across a project.
 
@@ -19,7 +19,7 @@ That model works because it keeps styling close to the element. It also makes de
 
 Utility-first CSS solves naming and scoping problems, but it does not remove repeated UI work.
 
-Tailwind does not include a full set of component classes by default. You can compose them yourself, copy snippets, or add a library that gives repeated patterns a stable name.
+Tailwind does not include a full set of [component classes](/pages/best-component-library-for-2026/) by default. You can compose them yourself, copy snippets, or add a library that gives repeated patterns a stable name.
 
 A button still needs a button pattern. A form still needs form patterns. A dashboard still needs cards, stats, tables, tabs, and alerts. If every one of those patterns is built from utilities each time, the code grows noisy.
 

@@ -657,7 +657,11 @@
           Generate daisyUI code with any LLM
         </h2>
       </div>
-      <a class="btn btn-block group btn-outline mt-6 shadow-none" href="/blueprint/">
+      <a
+        class="btn btn-block group btn-outline mt-6 shadow-none"
+        href="/blueprint/"
+        data-theme="dark"
+      >
         More details
         <svg
           xmlns="http://www.w3.org/2000/svg"

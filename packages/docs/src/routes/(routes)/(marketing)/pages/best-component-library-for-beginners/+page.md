@@ -11,9 +11,9 @@ keywords: beginner component library, best component library for beginners, lear
 
 ## A beginner component library should teach by naming patterns should reduce decisions, not create them
 
-Most people do not search for a component library because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
+Most people do not search for a [component library](/pages/easy-component-library/) because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
 
-Beginners need to see the connection between markup and interface parts. Long utility strings hide that connection. Clear component names make it visible. need those pieces to feel consistent without spending the project budget on small styling decisions.
+[Beginners](/pages/css-framework-for-school-project/) need to see the connection between markup and interface parts. Long utility strings hide that connection. Clear component names make it visible. need those pieces to feel consistent without spending the project budget on small styling decisions.
 
 ## The common trap
 

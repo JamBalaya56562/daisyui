@@ -11,9 +11,9 @@ keywords: ai ui code generation, generate ui with ai, ai ui generator, llm ui co
 
 ## AI UI code generation works better with a UI grammar
 
-AI can produce frontend code quickly. The hard part starts after the first answer, when you ask for a smaller change and the model rewrites a wall of utility classes.
+AI can produce [frontend code](/pages/ai-frontend-code-generation/) quickly. The hard part starts after the first answer, when you ask for a smaller change and the model rewrites a wall of utility classes.
 
-That happens because a text prompt leaves too many UI decisions open. A "nice dashboard" can mean cards, stats, tables, badges, filters, empty states, and several spacing systems. Without a shared component vocabulary, the model invents those details every time.
+That happens because a [text prompt](/pages/prompt-to-ui/) leaves too many UI decisions open. A "nice dashboard" can mean cards, stats, tables, badges, filters, empty states, and several spacing systems. Without a shared component vocabulary, the model invents those details every time.
 
 ## The hidden cost is not the first screen
 
@@ -76,6 +76,6 @@ That prompt gives the model pieces it can assemble. It also gives you code that 
 
 ## When this approach pays off
 
-Use semantic components when you expect revisions, multiple pages, team handoff, or theme changes. For one experimental snippet, utility-only output can be fine. For a product surface, repeated utility chains turn into noise.
+Use semantic components when you expect revisions, [multiple pages](/pages/design-website-with-ai/), team handoff, or theme changes. For one experimental snippet, utility-only output can be fine. For a product surface, repeated utility chains turn into noise.
 
 Start with the [daisyUI components](/components/), then keep the [install guide](/docs/install/) and [theme generator](/theme-generator/) close while you prompt. The less the model has to invent, the more attention it can spend on the screen you asked for.

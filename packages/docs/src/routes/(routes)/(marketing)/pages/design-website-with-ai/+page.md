@@ -25,7 +25,7 @@ The first version often looks acceptable. The maintenance cost shows up in the s
 - The model changes nearby styles while fixing one small detail.
 - Reviewing the diff takes longer than the prompt.
 
-This is a system problem. The model needs stable names for repeated sections and controls before it can keep a full website coherent.
+This is a system problem. The model needs stable names for repeated sections and controls before it can keep a [full website](/pages/generate-ui-from-text/) coherent.
 
 ## Give the model component names before it writes code
 
@@ -57,7 +57,7 @@ Now the prompt and the code share the same vocabulary. You can ask for "primary"
 
 daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
-That combination matters for generated UI. Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
+That combination matters for [generated UI](/pages/generate-ui-from-text/). Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
 
 The model still has freedom. It can choose the layout, data, copy, and interaction wiring. The repetitive visual layer has a stable vocabulary.
 

@@ -9,7 +9,7 @@ keywords: use less token cursor, cursor token ui, daisyui mcp cursor
   import Translate from "$components/Translate.svelte"
 </script>
 
-To use less token with Cursor, separate design context from the task prompt. Agent Mode should receive the screen goal, file target, and states. daisyUI context can come from a skill, plugin, or MCP server.
+To use less token with [Cursor](/pages/cursor-use-less-tokens/), separate design context from the task prompt. Agent Mode should receive the screen goal, file target, and states. daisyUI context can come from a skill, plugin, or MCP server.
 
 ## Why Cursor prompts expand
 
@@ -23,7 +23,7 @@ Skill:
 npx skills add saadeghi/daisyui --agent cursor --yes
 ```
 
-Plugin: open Cursor settings, go to Plugins, search for https://github.com/saadeghi/daisyui, choose daisyui, and click Add to Cursor.
+Plugin: open [Cursor settings](/pages/ui-design-plugin-for-cursor/), go to Plugins, search for https://github.com/saadeghi/daisyui, choose daisyui, and click Add to Cursor.
 
 MCP:
 

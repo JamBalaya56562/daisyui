@@ -11,7 +11,7 @@ keywords: prompt to ui, text to ui, ui from prompt, prompt based ui generation, 
 
 ## Prompt-to-UI works when prompts name components
 
-Prompt-to-UI tools fail when the prompt describes outcomes but not building blocks. "Make it professional" gives the model taste work. "Use cards, stats, tabs, and primary buttons" gives it structure.
+[Prompt-to-UI tools](/pages/generate-ui-from-text/) fail when the prompt describes outcomes but not building blocks. "Make it professional" gives the model taste work. "Use cards, stats, tabs, and primary buttons" gives it structure.
 
 The best prompts do not micromanage every pixel. They name the parts the UI should use and leave the model to assemble them.
 
@@ -57,7 +57,7 @@ Now the prompt and the code share the same vocabulary. You can ask for "primary"
 
 daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
-That combination matters for generated UI. Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
+That combination matters for [generated UI](/pages/generate-ui-from-text/). Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
 
 The model still has freedom. It can choose the layout, data, copy, and interaction wiring. The repetitive visual layer has a stable vocabulary.
 

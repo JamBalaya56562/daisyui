@@ -9,7 +9,7 @@ keywords: claude code free design skill, free claude code skill, daisyui skill
   import Translate from "$components/Translate.svelte"
 </script>
 
-A Claude Code free design skill should reduce repeated prompting. The daisyUI skill gives Claude reusable instructions for Tailwind CSS component classes, themes, and interface patterns.
+A [Claude Code free design skill](/pages/best-claude-code-design-skill-2026/) should reduce repeated prompting. The daisyUI skill gives Claude reusable instructions for Tailwind CSS component classes, themes, and interface patterns.
 
 ## What the free skill does
 
@@ -19,7 +19,7 @@ Use it when you generate login pages, dashboards, forms, settings screens, prici
 
 ## Why it avoids AI slop
 
-Instead of asking Claude to invent controls, you give it component names:
+Instead of asking Claude to invent controls, you give it [component names](/pages/tailwind-ui-components/):
 
 ```html
 <label class="input validator">

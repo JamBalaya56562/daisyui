@@ -13,14 +13,14 @@ keywords: css library for html, CSS component library, framework agnostic, tailw
 
 HTML is already the structure of your page. When styling turns that structure into long, repeated class strings, the file becomes harder to scan and harder to change.
 
-Plain HTML can ship useful interfaces. The weak point is not HTML. It is repeating all the CSS needed for buttons, cards, forms, menus, alerts, and responsive states.
+[Plain HTML](/pages/tailwind-css-without-node/) can ship useful interfaces. The weak point is not HTML. It is repeating all the CSS needed for buttons, cards, forms, menus, alerts, and responsive states.
 
 ## The problem with starting from zero
 
 Writing every component from scratch gives you full control, but it also makes every small pattern a new design task.
 
 - Buttons need colors, sizes, hover states, focus styles, disabled styles, and loading states.
-- Forms need inputs, labels, validation states, selects, textareas, checkboxes, and radio buttons.
+- [Forms](/pages/easy-component-library/) need inputs, labels, validation states, selects, textareas, checkboxes, and radio buttons.
 - Navigation needs menus, dropdowns, breadcrumbs, tabs, and responsive behavior.
 - Product screens need cards, tables, stats, badges, alerts, and modals.
 
@@ -28,7 +28,7 @@ You can build all of that by hand. The question is whether that work is the best
 
 ## The useful middle path
 
-Tailwind CSS gives you utility classes for custom work. A CSS component library gives names to repeated patterns.
+Tailwind CSS gives you utility classes for custom work. A [CSS component library](/pages/easy-css-library/) gives names to repeated patterns.
 
 ```html
 <button class="btn btn-primary">Create account</button>

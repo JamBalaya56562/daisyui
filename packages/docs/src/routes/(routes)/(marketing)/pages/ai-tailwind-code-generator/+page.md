@@ -11,7 +11,7 @@ keywords: ai tailwind code generator, tailwind ai generator, ai tailwind ui, tai
 
 ## An AI Tailwind code generator needs guardrails
 
-AI Tailwind generators are good at producing valid utility classes. The weak spot is consistency: the model can create three correct buttons with three different class recipes.
+AI Tailwind generators are good at producing valid [utility classes](/pages/what-is-tailwind-css-used-for/). The weak spot is consistency: the model can create three correct buttons with three different class recipes.
 
 That happens because Tailwind gives many valid ways to express the same UI. Without a component vocabulary, the generator keeps solving padding, color, borders, shadows, focus styles, and dark mode from scratch.
 
@@ -55,7 +55,7 @@ Now the prompt and the code share the same vocabulary. You can ask for "primary"
 
 ## Why daisyUI fits AI Tailwind code generation
 
-daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
+daisyUI is a [Tailwind CSS](/pages/tailwind-css/) component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
 That combination matters for generated UI. Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
 

@@ -19,7 +19,7 @@ That model works because it keeps styling close to the element. It also makes de
 
 Utility-first CSS solves naming and scoping problems, but it does not remove repeated UI work.
 
-Many developers looking for a Tailwind CSS alternative do not dislike Tailwind. They dislike rebuilding common components with long utility lists. The problem is repetition, not the utility model itself.
+Many developers looking for a [Tailwind CSS alternative](/pages/what-is-tailwind-css-used-for/) do not dislike Tailwind. They dislike rebuilding common components with long utility lists. The problem is repetition, not the utility model itself.
 
 A button still needs a button pattern. A form still needs form patterns. A dashboard still needs cards, stats, tables, tabs, and alerts. If every one of those patterns is built from utilities each time, the code grows noisy.
 
@@ -37,7 +37,7 @@ Tailwind gives the low-level language. Component classes give repeated interface
 </div>
 ```
 
-This is still Tailwind CSS. daisyUI adds a component layer on top, so common UI does not need to be rebuilt from utilities on every page.
+This is still Tailwind CSS. daisyUI adds a [component layer](/pages/tailwind-ui-components/) on top, so common UI does not need to be rebuilt from utilities on every page.
 
 ## What daisyUI adds to Tailwind CSS
 

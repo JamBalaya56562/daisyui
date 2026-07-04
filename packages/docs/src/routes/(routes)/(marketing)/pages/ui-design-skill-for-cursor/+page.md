@@ -9,13 +9,13 @@ keywords: ui design skill for cursor, cursor design skill, daisyui skill cursor
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design skill for Cursor gives Agent Mode a preferred component vocabulary. Cursor can inspect nearby files, but a mixed frontend often contains old utility chains, copied examples, and unfinished patterns. A skill tells the agent which path to prefer.
+A UI design skill for Cursor gives Agent Mode a preferred [component vocabulary](/pages/cursor-ui-design-skill/). Cursor can inspect nearby files, but a mixed frontend often contains old utility chains, copied examples, and unfinished patterns. A skill tells the agent which path to prefer.
 
 ## Why prompt-only design breaks
 
 A prompt such as "make a clean CRM page" leaves too many decisions open. Cursor may create a screen that functions, but the buttons, panels, badges, and tables can look unrelated. That is the usual shape of AI slop in generated UI.
 
-The daisyUI skill gives Cursor guidance about component classes, semantic colors, and theme-aware markup. Agent Skills are designed for this kind of reusable knowledge.
+The daisyUI skill gives Cursor guidance about component classes, semantic colors, and theme-aware markup. [Agent Skills](/pages/best-free-component-library-for-cursor/) are designed for this kind of reusable knowledge.
 
 ## Better generated structure
 

@@ -9,11 +9,11 @@ keywords: use less token claude code, claude code token ui, daisyui mcp claude c
   import Translate from "$components/Translate.svelte"
 </script>
 
-To use less token with Claude Code, move repeated UI rules out of the prompt. The prompt should describe the screen. A skill or MCP server should provide the reusable daisyUI context.
+To use less token with Claude Code, move repeated UI rules out of the prompt. The prompt should describe the screen. A skill or [MCP server](/pages/ui-design-mcp-server-for-claude-code/) should provide the reusable daisyUI context.
 
 ## Where tokens go
 
-UI prompts often repeat the same guidance: use consistent buttons, support themes, keep forms aligned, avoid hardcoded colors, and avoid AI slop. Claude needs those rules, but not as pasted text every time.
+UI prompts often repeat the same guidance: use consistent buttons, support themes, keep forms aligned, avoid hardcoded colors, and avoid AI slop. [Claude](/pages/ui-design-skill-for-claude-code/) needs those rules, but not as pasted text every time.
 
 ## Free path: skill
 

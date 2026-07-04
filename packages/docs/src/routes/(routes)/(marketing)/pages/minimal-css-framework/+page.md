@@ -11,7 +11,7 @@ keywords: minimal css framework, lightweight css framework, no JavaScript CSS fr
 
 ## A minimal CSS framework should make HTML easier to read
 
-HTML is already the structure of your page. When styling turns that structure into long, repeated class strings, the file becomes harder to scan and harder to change.
+[HTML](/pages/css-library-for-html/) is already the structure of your page. When styling turns that structure into long, repeated class strings, the file becomes harder to scan and harder to change.
 
 Minimal does not mean empty. It means the library solves repeated styling problems without taking ownership of routing, state, forms, or client-side behavior.
 
@@ -28,7 +28,7 @@ You can build all of that by hand. The question is whether that work is the best
 
 ## The useful middle path
 
-Tailwind CSS gives you utility classes for custom work. A CSS component library gives names to repeated patterns.
+Tailwind CSS gives you utility classes for custom work. A [CSS component library](/pages/css-library-for-html/) gives names to repeated patterns.
 
 ```html
 <button class="btn btn-primary">Create account</button>

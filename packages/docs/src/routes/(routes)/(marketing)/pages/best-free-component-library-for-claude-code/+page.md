@@ -9,11 +9,11 @@ keywords: best free component library for claude code, claude code component lib
   import Translate from "$components/Translate.svelte"
 </script>
 
-The best free component library for Claude Code should give the agent clear UI primitives without locking you into a JavaScript component framework. daisyUI fits because it adds Tailwind CSS classes.
+The best free component library for [Claude Code](/pages/claude-code-ui-design-skill/) should give the agent clear UI primitives without locking you into a JavaScript component framework. daisyUI fits because it adds Tailwind CSS classes.
 
 ## Why Claude needs components
 
-Claude Code can write raw markup, but raw styling can drift. A component library gives Claude a stable catalog of buttons, cards, forms, alerts, tables, navigation, and modals.
+Claude Code can write raw markup, but raw styling can drift. A [component library](/pages/best-component-library-for-2026/) gives Claude a stable catalog of buttons, cards, forms, alerts, tables, navigation, and modals.
 
 ## Why daisyUI works
 

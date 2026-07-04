@@ -664,9 +664,10 @@
 
     <div class="flex items-center gap-2 ps-6 pt-2 pb-4">
       <div class="text-[0.625rem] opacity-40">{$t("Compatible with")}</div>
-      <img class="size-4" src="https://img.daisyui.com/images/logos/cursor.webp?2" alt="Cursor" />
-      <img class="size-4" src="https://img.daisyui.com/images/logos/vscode.webp" alt="VS Code" />
       <img class="size-4" src="https://img.daisyui.com/images/logos/claude.webp" alt="Claude" />
+      <img class="size-4" src="https://img.daisyui.com/images/logos/chatgpt.webp" alt="Codex" />
+      <img class="size-4" src="https://img.daisyui.com/images/logos/vscode.webp" alt="VS Code" />
+      <img class="size-4" src="https://img.daisyui.com/images/logos/cursor.webp?2" alt="Cursor" />
       <div class="text-[0.625rem] opacity-40">{$t("and more")}</div>
     </div>
   </div>
@@ -4540,7 +4541,7 @@
         />
         <img
           class="size-4 max-sm:hidden"
-          src="https://img.daisyui.com/images/logos/vscode.webp"
+          src="https://img.daisyui.com/images/logos/chatgpt.webp"
           alt="VS Code"
         />
         <img

@@ -9,11 +9,11 @@ keywords: ui design skill for claude code, claude code design skill, daisyui ski
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design skill for Claude Code turns repeated interface guidance into reusable context. If you keep pasting the same notes about buttons, cards, forms, themes, and responsive layout, that guidance belongs in a skill instead of every prompt.
+A UI [design skill](/pages/best-free-component-library-for-claude-code/) for Claude Code turns repeated interface guidance into reusable context. If you keep pasting the same notes about buttons, cards, forms, themes, and responsive layout, that guidance belongs in a skill instead of every prompt.
 
 ## Why this matters
 
-Claude Code skills are based on SKILL.md files. Claude can load a skill when the description matches a task, or you can invoke a skill directly. Full skill text loads only when used, which makes skills useful for design rules that are important but too long for every prompt.
+[Claude Code](/pages/claude-code-ui-design-skill/) skills are based on SKILL.md files. Claude can load a skill when the description matches a task, or you can invoke a skill directly. Full skill text loads only when used, which makes skills useful for design rules that are important but too long for every prompt.
 
 Without a design skill, Claude may produce valid Tailwind CSS that still feels like AI slop: three button styles, hardcoded colors, and forms that do not match the surrounding page.
 

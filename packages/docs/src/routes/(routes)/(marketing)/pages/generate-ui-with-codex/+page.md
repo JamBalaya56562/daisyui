@@ -11,9 +11,9 @@ keywords: generate ui with codex, codex ui generation, codex frontend code, code
 
 ## Codex needs project-level UI rules
 
-Codex works inside a codebase, so its UI output has to match surrounding files. Without project-level component rules, it can generate valid markup that still feels unlike the rest of the app.
+[Codex](/pages/how-to-design-ui-with-codex/) works inside a codebase, so its UI output has to match surrounding files. Without project-level component rules, it can generate valid markup that still feels unlike the rest of the app.
 
-The fix is not a longer prompt for every task. The fix is a reusable component vocabulary Codex can follow each time it edits frontend files.
+The fix is not a longer prompt for every task. The fix is a reusable [component vocabulary](/pages/ui-design-skill-for-codex/) Codex can follow each time it edits frontend files.
 
 ## The hidden cost is not the first screen
 

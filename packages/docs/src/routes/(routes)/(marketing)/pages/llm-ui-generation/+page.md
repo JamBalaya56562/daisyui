@@ -11,7 +11,7 @@ keywords: llm ui generation, llm ui builder, llm frontend generation, ai generat
 
 ## LLM UI generation slows down without structure
 
-LLM UI generation feels fast at the beginning. It slows down when the project accumulates verbose markup and every prompt has to carry more styling context than product context.
+[LLM UI generation](/pages/generate-ui-with-llm/) feels fast at the beginning. It slows down when the project accumulates verbose markup and every prompt has to carry more styling context than product context.
 
 The model is not only writing code. It is reading and comparing the code you already have. Repeated utility chains make that job harder.
 
@@ -25,7 +25,7 @@ The first version often looks acceptable. The maintenance cost shows up in the s
 - The model changes nearby styles while fixing one small detail.
 - Reviewing the diff takes longer than the prompt.
 
-This is a scaling problem. As the UI grows, component names become cheaper to read than repeated utility recipes.
+This is a scaling problem. As the UI grows, [component names](/pages/tailwind-ui-components/) become cheaper to read than repeated utility recipes.
 
 ## Give the model component names before it writes code
 

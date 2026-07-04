@@ -9,13 +9,13 @@ keywords: ui design mcp server for cursor, cursor mcp ui design, daisyui bluepri
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design MCP server for Cursor gives Agent Mode a focused source of daisyUI context. Instead of pasting component rules into every request, Cursor can connect to Blueprint MCP and fetch the details it needs while building the screen.
+A [UI design MCP server for Cursor](/pages/use-less-token-cursor/) gives Agent Mode a focused source of daisyUI context. Instead of pasting component rules into every request, Cursor can connect to Blueprint MCP and fetch the details it needs while building the screen.
 
 ## Why Cursor benefits
 
 Cursor works inside the editor, so it can move quickly from prompt to code. Speed is not enough when the repo contains mixed UI patterns. The agent needs a source of truth for components, themes, and repeated layout parts.
 
-Blueprint MCP separates the screen request from the design reference. You describe the admin layout, checkout flow, or dashboard. The MCP server provides daisyUI component context.
+[Blueprint MCP](/pages/use-less-token-cursor/) separates the screen request from the design reference. You describe the admin layout, checkout flow, or dashboard. The MCP server provides daisyUI component context.
 
 ## Example target
 

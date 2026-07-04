@@ -9,11 +9,11 @@ keywords: best cursor design skill 2026, cursor design skill, daisyui cursor ski
   import Translate from "$components/Translate.svelte"
 </script>
 
-The best Cursor design skill in 2026 is one that gives Agent Mode a reliable UI system before it edits code. Cursor can move fast, but fast edits still need design rules.
+The best [Cursor design skill](/pages/ui-design-skill-for-cursor/) in 2026 is one that gives Agent Mode a reliable UI system before it edits code. Cursor can move fast, but fast edits still need design rules.
 
 ## What Cursor needs from a skill
 
-A design skill should reduce ambiguity. It should tell Cursor which component classes to use, how to keep theme colors consistent, and where Tailwind utilities belong. Without that, Agent Mode may copy inconsistent patterns from the repo or invent new ones.
+A design skill should reduce ambiguity. It should tell Cursor which component classes to use, how to keep theme colors consistent, and where Tailwind utilities belong. Without that, [Agent Mode](/pages/how-to-design-ui-with-cursor/) may copy inconsistent patterns from the repo or invent new ones.
 
 ## Why daisyUI helps
 

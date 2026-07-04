@@ -11,9 +11,9 @@ keywords: install Tailwind CSS Vite, Tailwind CSS Vite, @tailwindcss/vite, daisy
 
 ## Install Tailwind CSS with Vite when you want a real build setup
 
-Vite is a good match for Tailwind CSS because it gives you a fast development server and a simple plugin setup. Tailwind CSS 4 uses the `@tailwindcss/vite` plugin in Vite projects.
+Vite is a good match for [Tailwind CSS](/pages/tailwind-css/) because it gives you a fast development server and a simple plugin setup. Tailwind CSS 4 uses the `@tailwindcss/vite` plugin in Vite projects.
 
-If you also want component classes, install daisyUI in the same project and load it from your CSS file.
+If you also want [component classes](/pages/tailwind-ui-components/), install daisyUI in the same project and load it from your CSS file.
 
 ## 1. Create a Vite project
 
@@ -64,5 +64,3 @@ export default defineConfig({
 ## Why add daisyUI during setup?
 
 Tailwind CSS gives you control over every visual detail. daisyUI gives you ready component classes for the parts you will use repeatedly. Starting with both keeps the project flexible without forcing every button, card, input, and alert to start from zero.
-
-For framework-specific steps, use the [daisyUI install docs](/docs/install/). For plain HTML without a build step, use the [CDN guide](/docs/cdn/).

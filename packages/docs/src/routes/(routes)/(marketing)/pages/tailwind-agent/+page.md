@@ -11,9 +11,9 @@ keywords: tailwind agent, agentic code generation, llm tailwind, css agent, ai c
 
 ## Tailwind agents need a small component vocabulary
 
-A coding agent can inspect files, plan edits, and change code across a project. That power helps only when the UI patterns are easy to recognize.
+A [coding agent](/pages/ai-frontend-code-generation/) can inspect files, plan edits, and change code across a project. That power helps only when the UI patterns are easy to recognize.
 
-With raw Tailwind utilities, the agent has to infer whether a long class list is a button, a badge, a panel, or a one-off design. Component names make that intent visible.
+With [raw Tailwind utilities](/pages/ai-tailwind-code-generator/), the agent has to infer whether a long class list is a button, a badge, a panel, or a one-off design. Component names make that intent visible.
 
 ## The hidden cost is not the first screen
 
@@ -79,5 +79,3 @@ That prompt gives the model pieces it can assemble. It also gives you code that 
 Use semantic components when an agent will make repeated UI edits across files. Class names like `btn`, `card`, and `modal` give the agent handles it can search, compare, and reuse.
 
 Start with the [daisyUI components](/components/), then keep the [install guide](/docs/install/) and [theme generator](/theme-generator/) close while you prompt. The less the model has to invent, the more attention it can spend on the screen you asked for.
-
-For agentic workflows, add [daisyUI MCP](/docs/mcp/) or the [daisyUI editor setup](/docs/editor/) when your tool supports it. The goal is the same: put component knowledge in context before the agent edits files.

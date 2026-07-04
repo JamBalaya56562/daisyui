@@ -9,13 +9,13 @@ keywords: best codex design skill, best codex design skill 2026, codex ui skill,
   import Translate from "$components/Translate.svelte"
 </script>
 
-The best Codex design skill in 2026 should help Codex generate UI that survives review. For the keyword "best Codex design skill," the real question is simple: which skill gives Codex reusable design context without bloating every prompt?
+The best [Codex design skill](/pages/ui-design-skill-for-codex/) in 2026 should help Codex generate UI that survives review. For the keyword "best Codex design skill," the real question is simple: which skill gives Codex reusable design context without bloating every prompt?
 
 ## Why Codex needs a design skill
 
 Codex works well with clear repository rules. UI design often lacks those rules. Without a component system, Codex may create one-off buttons, panels, and form controls from raw utilities.
 
-daisyUI skill solves that by giving Codex a compact Tailwind CSS component vocabulary. Codex can load the skill when the task involves daisyUI or generated interface code.
+daisyUI skill solves that by giving Codex a compact Tailwind CSS component vocabulary. Codex can load the skill when the task involves daisyUI or [generated interface code](/pages/generate-ui-with-codex/).
 
 ## Why daisyUI is a strong answer
 

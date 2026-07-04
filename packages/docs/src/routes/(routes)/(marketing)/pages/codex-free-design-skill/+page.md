@@ -9,11 +9,11 @@ keywords: codex free design skill, free codex skill, daisyui codex skill
   import Translate from "$components/Translate.svelte"
 </script>
 
-A Codex free design skill is the easiest way to give Codex UI guidance without setting up an MCP server. It is useful when your prompts repeat the same Tailwind CSS component rules.
+A Codex free design skill is the easiest way to give Codex UI guidance without setting up an [MCP server](/pages/ui-design-mcp-server-for-codex/). It is useful when your prompts repeat the same Tailwind CSS component rules.
 
 ## Why use the free skill
 
-Codex needs context to avoid inconsistent UI. The daisyUI skill supplies a small design vocabulary for common screens: dashboards, settings pages, tables, alerts, forms, and modals.
+Codex needs context to avoid inconsistent UI. The daisyUI skill supplies a small design vocabulary for common screens: [dashboards](/pages/generate-ui-with-codex/), settings pages, tables, alerts, forms, and modals.
 
 ## Example output target
 

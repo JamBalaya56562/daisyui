@@ -9,11 +9,11 @@ keywords: ui design plugin for cursor, cursor plugin ui design, daisyui plugin c
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design plugin for Cursor keeps daisyUI guidance inside the editor workflow. Cursor plugins can bundle rules, skills, commands, MCP servers, agents, and hooks. For daisyUI, the plugin gives Agent Mode access to design skill instructions.
+A UI design plugin for Cursor keeps daisyUI guidance inside the editor workflow. Cursor plugins can bundle rules, skills, commands, [MCP servers](/pages/ui-design-mcp-server-for-cursor/), agents, and hooks. For daisyUI, the plugin gives Agent Mode access to design skill instructions.
 
 ## Why use the plugin path
 
-A pasted prompt is temporary. A plugin stays available through Cursor settings and can be managed with other project or user extensions. That is useful when you generate UI often and want one repeatable setup.
+A pasted prompt is temporary. A [plugin](/pages/cursor-use-less-tokens/) stays available through Cursor settings and can be managed with other project or user extensions. That is useful when you generate UI often and want one repeatable setup.
 
 The daisyUI plugin helps Cursor avoid inventing a new mini design system on every screen. It points the agent toward component names.
 

@@ -9,7 +9,7 @@ keywords: ui design mcp server for claude code, claude code mcp ui design, daisy
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design MCP server for Claude Code is the better choice when static skill instructions are not enough. MCP lets Claude Code receive targeted daisyUI context during the task, instead of carrying every component rule inside the prompt.
+A UI design [MCP server for Claude Code](/pages/use-less-token-claude-code/) is the better choice when static skill instructions are not enough. MCP lets Claude Code receive targeted daisyUI context during the task, instead of carrying every component rule inside the prompt.
 
 ## Why MCP fits UI work
 
@@ -19,7 +19,7 @@ This keeps prompts focused on product requirements. Claude spends less attention
 
 ## Why Blueprint
 
-Blueprint is the official daisyUI MCP server. Use it for production UI tasks where you want current daisyUI snippets and design context. It helps Claude avoid low-quality generated markup by grounding the output in real component patterns.
+[Blueprint](/pages/use-less-token-claude-code/) is the official daisyUI MCP server. Use it for production UI tasks where you want current daisyUI snippets and design context. It helps Claude avoid low-quality generated markup by grounding the output in real component patterns.
 
 ```md:prompt
 Build a SaaS billing screen with daisyUI. use Blueprint MCP

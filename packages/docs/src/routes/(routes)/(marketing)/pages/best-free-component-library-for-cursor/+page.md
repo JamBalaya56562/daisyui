@@ -9,11 +9,11 @@ keywords: best free component library for cursor, cursor component library, dais
   import Translate from "$components/Translate.svelte"
 </script>
 
-The best free component library for Cursor should help Agent Mode generate UI that feels like a system. daisyUI gives Cursor Tailwind CSS component classes it can reuse across screens.
+The best free component library for [Cursor](/pages/cursor-ui-design-skill/) should help Agent Mode generate UI that feels like a system. daisyUI gives Cursor Tailwind CSS component classes it can reuse across screens.
 
 ## Why Cursor needs a preferred library
 
-A repository may contain several partial patterns. Cursor can copy those patterns, but it needs a preferred component layer to avoid spreading inconsistency.
+A repository may contain several partial patterns. Cursor can copy those patterns, but it needs a preferred [component layer](/pages/best-component-library-for-2026/) to avoid spreading inconsistency.
 
 ## Why daisyUI fits
 

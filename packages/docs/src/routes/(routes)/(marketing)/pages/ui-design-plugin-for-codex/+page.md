@@ -9,11 +9,11 @@ keywords: ui design plugin for codex, codex plugin ui design, daisyui plugin cod
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design plugin for Codex is the installable way to add daisyUI design guidance to Codex. Codex plugins can bundle skills, app integrations, and MCP servers, but the key value here is the daisyUI skill packaged for reuse.
+A UI design plugin for Codex is the installable way to add daisyUI design guidance to Codex. Codex plugins can bundle skills, app integrations, and [MCP servers](/pages/ui-design-mcp-server-for-codex/), but the key value here is the daisyUI skill packaged for reuse.
 
 ## Plugin versus project dependency
 
-The Codex plugin does not replace installing daisyUI in your app. The app still needs daisyUI CSS if you want the classes to render. The plugin helps Codex choose the right classes while it writes UI code.
+The [Codex plugin](/pages/use-less-token-codex/) does not replace installing daisyUI in your app. The app still needs daisyUI CSS if you want the classes to render. The plugin helps Codex choose the right classes while it writes UI code.
 
 That distinction matters. One part is runtime styling. The other part is agent context.
 

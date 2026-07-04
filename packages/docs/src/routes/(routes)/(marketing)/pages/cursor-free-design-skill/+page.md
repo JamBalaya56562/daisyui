@@ -9,11 +9,11 @@ keywords: cursor free design skill, free cursor skill, daisyui cursor skill
   import Translate from "$components/Translate.svelte"
 </script>
 
-A Cursor free design skill gives Agent Mode reusable UI instructions without paid tooling. It is a good starting point when Cursor-generated screens look inconsistent or too utility-heavy.
+A Cursor free [design skill](/pages/best-cursor-design-skill-2026/) gives Agent Mode reusable UI instructions without paid tooling. It is a good starting point when Cursor-generated screens look inconsistent or too utility-heavy.
 
 ## The prompt problem
 
-A long UI prompt often repeats the same rules: use consistent buttons, keep dark mode readable, align form controls, and avoid random styling. The daisyUI skill moves those rules into reusable context.
+A long UI prompt often repeats the same rules: use consistent buttons, keep dark mode readable, align form controls, and avoid random styling. The daisyUI skill moves those rules into [reusable context](/pages/ui-design-skill-for-cursor/).
 
 ## What Cursor learns
 

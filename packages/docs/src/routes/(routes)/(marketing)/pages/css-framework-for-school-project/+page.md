@@ -11,7 +11,7 @@ keywords: css framework for school project, school project css, student projects
 
 ## A CSS framework for school projects should make HTML easier to read
 
-HTML is already the structure of your page. When styling turns that structure into long, repeated class strings, the file becomes harder to scan and harder to change.
+[HTML](/pages/css-library-for-html/) is already the structure of your page. When styling turns that structure into long, repeated class strings, the file becomes harder to scan and harder to change.
 
 For school projects, the goal is usually a working page, a clear demo, and code you can explain. Spending hours on button states or form styling gets in the way of the assignment.
 
@@ -40,7 +40,7 @@ Those class names make the markup easier to understand. They also keep future ed
 
 ## Where daisyUI fits
 
-daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
+daisyUI is a [Tailwind CSS component library](/pages/tailwind-ui-components/). Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
 Use daisyUI for the interface parts you repeat. Use Tailwind utilities for layout, spacing, responsive grids, and special cases. That keeps the HTML readable without taking away control.
 
@@ -57,6 +57,6 @@ A theme can change the meaning of `primary`, `secondary`, `base-100`, and other 
 
 ## Use it when speed and clarity matter
 
-This approach works well for school projects, dashboards, admin panels, prototypes, hackathons, AI-generated screens, and product teams that want consistent UI without adopting a JavaScript component library.
+This approach works well for school projects, dashboards, admin panels, prototypes, [hackathons](/pages/ui-library-for-hackaton/), AI-generated screens, and product teams that want consistent UI without adopting a JavaScript component library.
 
 Explore the [components](/components/), read the [CDN guide](/docs/cdn/) for plain HTML, or follow the [Vite install guide](/docs/install/vite/) for a build setup.

@@ -9,11 +9,11 @@ keywords: ui design skill for codex, codex design skill, daisyui skill codex
   import Translate from "$components/Translate.svelte"
 </script>
 
-A UI design skill for Codex gives the agent a compact design system before it edits frontend files. Codex skills use progressive disclosure, so Codex can start with the skill name and description, then read the full SKILL.md only when the UI task needs it.
+A UI design skill for Codex gives the agent a compact design system before it edits frontend files. [Codex skills](/pages/best-free-component-library-for-codex/) use progressive disclosure, so Codex can start with the skill name and description, then read the full SKILL.md only when the UI task needs it.
 
 ## The Codex design problem
 
-Codex is good at working inside a repository, but utility-only Tailwind CSS can hide intent. A long class list may be a primary button, a filter chip, or a one-off patch. Codex has to infer meaning before it can edit safely.
+Codex is good at working inside a [repository](/pages/ai-frontend-code-generation/), but utility-only Tailwind CSS can hide intent. A long class list may be a primary button, a filter chip, or a one-off patch. Codex has to infer meaning before it can edit safely.
 
 A daisyUI skill reduces that guesswork. It tells Codex which component classes represent repeated UI parts and when Tailwind utilities should handle layout.
 

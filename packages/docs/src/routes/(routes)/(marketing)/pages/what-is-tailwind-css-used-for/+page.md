@@ -11,7 +11,7 @@ keywords: what is Tailwind CSS used for, tailwind css use cases, tailwind css be
 
 ## Tailwind CSS is used for building custom interfaces is about control
 
-Tailwind CSS is used to style interfaces with utility classes in markup. Instead of creating a custom CSS selector for every element, you compose spacing, color, typography, layout, and state classes where the HTML lives.
+Tailwind CSS is used to style interfaces with [utility classes](/pages/tailwind-css/) in markup. Instead of creating a custom CSS selector for every element, you compose spacing, color, typography, layout, and state classes where the HTML lives.
 
 That model works because it keeps styling close to the element. It also makes design tokens easier to reuse across a project.
 
@@ -51,7 +51,7 @@ The practical split is simple:
 
 ## When this is the better workflow
 
-Use Tailwind alone when you are crafting a one-off visual section. Add daisyUI when you are building repeated product UI: forms, settings pages, dashboards, navigation, marketing sections, data tables, and admin screens.
+Use [Tailwind alone](/pages/tailwind-css-alternative/) when you are crafting a one-off visual section. Add daisyUI when you are building repeated product UI: forms, settings pages, dashboards, navigation, marketing sections, data tables, and admin screens.
 
 That balance keeps Tailwind's control while reducing the repetition that slows real projects.
 

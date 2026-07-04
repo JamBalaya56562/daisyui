@@ -13,7 +13,7 @@ keywords: generate ui from text, text to ui generator, ai ui from text, generate
 
 Plain text is fuzzy. "Create a dashboard with stats and recent activity" sounds specific, but it still leaves the model to choose the components, layout, hierarchy, and interaction states.
 
-The more abstract the prompt, the more the model has to invent. Shared UI names turn a vague request into a set of concrete pieces.
+The more abstract the [prompt](/pages/prompt-to-ui/), the more the model has to invent. Shared UI names turn a vague request into a set of concrete pieces.
 
 ## The hidden cost is not the first screen
 
@@ -76,6 +76,6 @@ That prompt gives the model pieces it can assemble. It also gives you code that 
 
 ## When this approach pays off
 
-Use semantic components when non-technical prompts need to become maintainable code. The prompt can stay plain English, but the output should use a stable UI vocabulary.
+Use semantic components when non-technical prompts need to become maintainable code. The prompt can stay [plain English](/pages/prompt-to-ui/), but the output should use a stable UI vocabulary.
 
 Start with the [daisyUI components](/components/), then keep the [install guide](/docs/install/) and [theme generator](/theme-generator/) close while you prompt. The less the model has to invent, the more attention it can spend on the screen you asked for.

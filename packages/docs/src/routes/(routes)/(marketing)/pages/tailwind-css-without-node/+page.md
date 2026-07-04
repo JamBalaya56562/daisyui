@@ -13,7 +13,7 @@ keywords: tailwind css without node, tailwindcss without npm, standalone tailwin
 
 Most production Tailwind CSS projects use a build step. That is the right choice when you need bundling, minification, source control around dependencies, and a repeatable deployment.
 
-Sometimes you only need a quick HTML prototype, a demo page, a school project, or a server-rendered page where adding a Node pipeline would slow the work down.
+Sometimes you only need a [quick HTML prototype](/pages/css-library-for-html/), a demo page, a school project, or a server-rendered page where adding a Node pipeline would slow the work down.
 
 ## The CDN path
 
@@ -34,6 +34,4 @@ Then write normal markup:
 
 ## Know the tradeoff
 
-The browser setup is excellent for prototypes and learning. For production apps, a build setup gives you stronger control over performance, dependency versions, and generated CSS.
-
-If you want no local Node setup today, read the [daisyUI CDN guide](/docs/cdn/). If the project grows, move to the [install guide](/docs/install/) for your framework.
+The browser setup is excellent for prototypes and learning. For production apps, a [build setup](/pages/install-tailwind-css-vite/) gives you stronger control over performance, dependency versions, and generated CSS.

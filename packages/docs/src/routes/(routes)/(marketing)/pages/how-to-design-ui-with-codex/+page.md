@@ -9,7 +9,7 @@ keywords: how to design ui with codex, codex ui design, daisyui codex
   import Translate from "$components/Translate.svelte"
 </script>
 
-To design UI with Codex, write a product brief plus a component contract. Codex can inspect files, but it needs clear design constraints to avoid low-quality generated markup.
+To design UI with [Codex](/pages/best-codex-design-skill-2026/), write a product brief plus a component contract. Codex can inspect files, but it needs clear design constraints to avoid low-quality generated markup.
 
 ## Start with the prompt
 
@@ -23,7 +23,7 @@ Install the skill for reusable local guidance:
 npx skills add saadeghi/daisyui --agent codex --yes
 ```
 
-Install Blueprint MCP for on-demand context:
+Install Blueprint MCP for [on-demand context](/pages/ui-design-mcp-server-for-codex/):
 
 ```sh:Terminal
 codex mcp add daisyui-blueprint --env LICENSE=YOUR_LICENSE_KEY --env EMAIL=YOUR_EMAIL --env FIGMA=YOUR_FIGMA_API_KEY -- npx -y daisyui-blueprint@latest

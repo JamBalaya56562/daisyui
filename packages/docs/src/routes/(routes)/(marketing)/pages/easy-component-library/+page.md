@@ -11,7 +11,7 @@ keywords: easy component library, simple component library, easy to use componen
 
 ## An easy component library removes small styling chores should reduce decisions, not create them
 
-Most people do not search for a component library because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
+Most people do not search for a [component library](/pages/best-component-library-for-beginners/) because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
 
 Students, solo builders, backend developers, and product teams all run into the same problem: the UI needs to look coherent before the feature can be judged. need those pieces to feel consistent without spending the project budget on small styling decisions.
 
@@ -41,7 +41,7 @@ Easy should not mean shallow. It should mean the common path is short, while cus
 
 ## Why daisyUI belongs on the shortlist
 
-daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
+daisyUI is a Tailwind [CSS component library](/pages/css-library-for-html/). Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
 That means you can write `btn btn-primary`, `card bg-base-100`, `input`, `select`, `modal`, `navbar`, `menu`, and `alert` in markup without adopting a framework-specific component API.
 

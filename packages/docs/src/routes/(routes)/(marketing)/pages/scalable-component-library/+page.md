@@ -11,9 +11,9 @@ keywords: scalable component library, large scale projects, css components, fram
 
 ## A scalable component library keeps repeated UI boring should reduce decisions, not create them
 
-Most people do not search for a component library because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
+Most people do not search for a [component library](/pages/best-component-library-for-2026/) because they want another dependency to manage. They search because the same interface work keeps coming back: buttons, cards, forms, navigation, alerts, tables, dialogs, empty states, and themes.
 
-Large projects need the same patterns to survive new pages, new teams, and new frameworks without turning into a pile of one-off markup. need those pieces to feel consistent without spending the project budget on small styling decisions.
+[Large projects](/pages/best-component-library-for-2026/) need the same patterns to survive new pages, new teams, and new frameworks without turning into a pile of one-off markup. need those pieces to feel consistent without spending the project budget on small styling decisions.
 
 ## The common trap
 

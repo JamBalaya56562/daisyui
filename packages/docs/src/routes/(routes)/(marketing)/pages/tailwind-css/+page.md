@@ -17,7 +17,7 @@ That model works because it keeps styling close to the element. It also makes de
 
 ## Where teams get stuck
 
-Utility-first CSS solves naming and scoping problems, but it does not remove repeated UI work.
+[Utility-first CSS](/pages/what-is-tailwind-css-used-for/) solves naming and scoping problems, but it does not remove repeated UI work.
 
 The same flexibility can also fill your markup with long class strings. That is fine for custom sections. It becomes repetitive for standard UI pieces users already recognize.
 
@@ -37,7 +37,7 @@ Tailwind gives the low-level language. Component classes give repeated interface
 </div>
 ```
 
-This is still Tailwind CSS. daisyUI adds a component layer on top, so common UI does not need to be rebuilt from utilities on every page.
+This is still Tailwind CSS. daisyUI adds a component layer on top, so [common UI](/pages/tailwind-ui-components/) does not need to be rebuilt from utilities on every page.
 
 ## What daisyUI adds to Tailwind CSS
 

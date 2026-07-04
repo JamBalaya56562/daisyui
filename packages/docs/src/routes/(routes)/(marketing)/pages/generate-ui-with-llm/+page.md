@@ -13,7 +13,7 @@ keywords: generate ui with llm, llm ui generation, llm frontend workflow, ai ui 
 
 An LLM can turn a prompt into a working interface, but it does not automatically preserve a design system across prompts. It follows the context you give it.
 
-If the context contains long utility chains, the model has to reason through them. If the context contains component names, it can operate at the level of the UI you meant.
+If the context contains long utility chains, the model has to reason through them. If the context contains [component names](/pages/tailwind-ui-components/), it can operate at the level of the UI you meant.
 
 ## The hidden cost is not the first screen
 
@@ -57,7 +57,7 @@ Now the prompt and the code share the same vocabulary. You can ask for "primary"
 
 daisyUI is a Tailwind CSS component library. Version 5 installs with `@plugin "daisyui"`, includes 61 component families in this repo, ships 35 built-in themes, and can also be used from CDN with `@tailwindcss/browser@4` for quick HTML prototypes. It adds CSS class names. It does not ship React, Vue, or Svelte components, so your framework keeps control of state and behavior.
 
-That combination matters for generated UI. Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
+That combination matters for [generated UI](/pages/llm-ui-generation/). Tailwind CSS remains available for layout and one-off styling, while daisyUI handles repeated interface parts with names a model can reuse: `btn`, `card`, `input`, `select`, `modal`, `navbar`, `menu`, `table`, `badge`, `alert`, `stat`, and `toast`.
 
 The model still has freedom. It can choose the layout, data, copy, and interaction wiring. The repetitive visual layer has a stable vocabulary.
 

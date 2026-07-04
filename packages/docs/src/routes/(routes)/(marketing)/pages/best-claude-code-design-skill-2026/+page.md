@@ -13,7 +13,7 @@ The best Claude Code design skill in 2026 is one that makes generated UI easier 
 
 ## Criteria for a good design skill
 
-Claude Code skills can be invoked directly or loaded when relevant. That makes them suitable for reusable UI guidance. A strong design skill should:
+[Claude Code skills](/pages/ui-design-skill-for-claude-code/) can be invoked directly or loaded when relevant. That makes them suitable for reusable UI guidance. A strong design skill should:
 
 - name common interface parts,
 - explain when to use them,
@@ -23,7 +23,7 @@ Claude Code skills can be invoked directly or loaded when relevant. That makes t
 
 ## Why daisyUI ranks well
 
-daisyUI gives Claude Code Tailwind CSS component names such as btn, card, input, table, modal, and alert. These names create a design vocabulary the agent can repeat.
+daisyUI gives Claude Code [Tailwind CSS component names](/pages/tailwind-ui-components/) such as btn, card, input, table, modal, and alert. These names create a design vocabulary the agent can repeat.
 
 ```html
 <div class="card bg-base-100 shadow-sm">

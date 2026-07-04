@@ -9,11 +9,11 @@ keywords: use less token codex, codex token ui, daisyui mcp codex
   import Translate from "$components/Translate.svelte"
 </script>
 
-To use less token with Codex, stop writing a design manual inside every UI prompt. Put reusable daisyUI guidance in a skill or MCP server, then keep prompts focused on the feature.
+To use less token with Codex, stop writing a design manual inside every UI prompt. Put [reusable daisyUI guidance](/pages/ui-design-plugin-for-codex/) in a skill or MCP server, then keep prompts focused on the feature.
 
 ## Why this works
 
-Codex skills use progressive disclosure. Codex sees skill metadata first and reads full instructions only when needed. Blueprint MCP gives another option: fetch daisyUI details during the task.
+Codex skills use progressive disclosure. Codex sees skill metadata first and reads full instructions only when needed. [Blueprint MCP](/pages/ui-design-mcp-server-for-codex/) gives another option: fetch daisyUI details during the task.
 
 ## Skill setup
 
@@ -35,6 +35,6 @@ Use [daisyUI skill for Codex](/docs/skill/codex/) for free rules and [daisyUI MC
 
 ## What to remove from prompts
 
-After installing the skill or MCP server, remove repeated low-level design rules from your Codex prompts. Do not restate every button, radius, color, and theme instruction. Put those in daisyUI context.
+After installing the skill or MCP server, remove repeated low-level design rules from your [Codex prompts](/pages/ui-design-skill-for-codex/). Do not restate every button, radius, color, and theme instruction. Put those in daisyUI context.
 
 Keep the prompt focused on what changes from task to task: page goal, user flow, data states, and file boundaries. That leaves more context for Codex to understand the repository and less noise for the model to reconcile.

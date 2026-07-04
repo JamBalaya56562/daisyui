@@ -9,7 +9,7 @@ keywords: best free component library for codex, codex component library, daisyu
   import Translate from "$components/Translate.svelte"
 </script>
 
-The best free component library for Codex should make generated UI shorter and easier to review. daisyUI does that with semantic Tailwind CSS component classes.
+The best free component library for [Codex](/pages/codex-free-design-skill/) should make generated UI shorter and easier to review. daisyUI does that with semantic Tailwind CSS component classes.
 
 ## Why this matters for Codex
 
@@ -37,6 +37,6 @@ Prompt: "Create a FAQ page with daisyUI. Use collapse items, a hero heading, and
 
 ## What makes it SEO-page friendly
 
-For generated websites, component consistency affects more than code style. A reader can feel when a page has mismatched buttons, uneven cards, or random spacing. Codex needs a component library so it can repeat good interface patterns across sections.
+For [generated websites](/pages/generate-ui-with-codex/), component consistency affects more than code style. A reader can feel when a page has mismatched buttons, uneven cards, or random spacing. Codex needs a component library so it can repeat good interface patterns across sections.
 
-daisyUI is useful because the generated HTML remains readable. Search-friendly marketing pages still need semantic content, headings, and links, but the visual layer should not distract from the message.
+daisyUI is useful because the [generated HTML](/pages/ai-frontend-code-generation/) remains readable. Search-friendly marketing pages still need semantic content, headings, and links, but the visual layer should not distract from the message.

@@ -9,7 +9,7 @@ keywords: how to design ui with cursor, cursor ui design, daisyui cursor
   import Translate from "$components/Translate.svelte"
 </script>
 
-To design UI with Cursor, give Agent Mode a precise screen request and a reusable component source. Cursor can edit quickly, but the prompt still needs a design system.
+To design UI with [Cursor](/pages/cursor-frontend-skill/), give Agent Mode a precise screen request and a reusable component source. Cursor can edit quickly, but the prompt still needs a design system.
 
 ## Write the UI as parts
 
@@ -54,6 +54,6 @@ See [skill](/docs/skill/cursor/), [plugin](/docs/plugin/cursor/), and [MCP](/doc
 
 ## Keep Cursor grounded in the repo
 
-Ask Cursor to inspect nearby UI before generating a new screen. Then tell it to prefer daisyUI components for repeated controls. This avoids a common failure: a new page that looks isolated from the rest of the app.
+Ask Cursor to inspect nearby UI before generating a new screen. Then tell it to prefer [daisyUI components](/pages/ui-design-skill-for-cursor/) for repeated controls. This avoids a common failure: a new page that looks isolated from the rest of the app.
 
 When the first draft lands, use a focused follow-up: "Keep the layout, but replace custom controls with daisyUI components and preserve existing routes." That keeps the edit narrow.

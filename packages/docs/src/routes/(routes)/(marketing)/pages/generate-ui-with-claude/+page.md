@@ -11,7 +11,7 @@ keywords: generate ui with claude, claude ui generation, claude frontend code, a
 
 ## Claude UI generation improves with constraints
 
-Claude is strong at explaining and revising UI code, but long utility strings make the revision loop heavier than it needs to be. A small visual change can come back as a large markup rewrite.
+[Claude](/pages/claude-ui-design-prompt/) is strong at explaining and revising UI code, but long utility strings make the revision loop heavier than it needs to be. A small visual change can come back as a large markup rewrite.
 
 Claude works better when the codebase has names for repeated UI parts. Without those names, it has to infer which utility chains represent buttons, cards, form controls, and alerts.
 
@@ -25,7 +25,7 @@ The first version often looks acceptable. The maintenance cost shows up in the s
 - The model changes nearby styles while fixing one small detail.
 - Reviewing the diff takes longer than the prompt.
 
-This is a context problem. The more low-level styling Claude has to read, the less attention remains for the behavior and content you want changed.
+This is a context problem. The more [low-level styling](/pages/ai-ui-code-generation/) Claude has to read, the less attention remains for the behavior and content you want changed.
 
 ## Give the model component names before it writes code
 

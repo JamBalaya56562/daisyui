@@ -9,7 +9,7 @@ keywords: how to design ui with claude code, claude code ui design, daisyui clau
   import Translate from "$components/Translate.svelte"
 </script>
 
-To design UI with Claude Code, give Claude a screen goal and a component system. Do not ask for a vague "clean page" and expect consistent design decisions.
+To design UI with [Claude Code](/pages/claude-code-free-design-skill/), give Claude a screen goal and a component system. Do not ask for a vague "clean page" and expect consistent design decisions.
 
 ## Step 1: write a product brief
 
@@ -23,7 +23,7 @@ For free static guidance, install the skill:
 npx skills add saadeghi/daisyui --agent claude-code --yes
 ```
 
-For on-demand component context, install Blueprint MCP:
+For on-demand [component context](/pages/ui-design-mcp-server-for-claude-code/), install Blueprint MCP:
 
 ```sh:Terminal
 claude mcp add daisyui-blueprint --env LICENSE=YOUR_LICENSE_KEY --env EMAIL=YOUR_EMAIL --env FIGMA=YOUR_FIGMA_API_KEY -- npx -y daisyui-blueprint@latest
