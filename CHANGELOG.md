@@ -8,6 +8,9 @@ All notable changes to this project will be documented in this file. See [commit
 ### Bug Fixes
 
 * `tabs-border` line size ([539a61c](https://github.com/saadeghi/daisyui/commit/539a61cb360970a0086835bbb5a4e46973741978))
+* disabled select style in fieldset. closes: [#4604](https://github.com/saadeghi/daisyui/issues/4604)
+* fix: prevent --join-* propagation to children of .join-item. closes: [#4597](https://github.com/saadeghi/daisyui/issues/4597)
+* fix: show open collapse ::details-content when prefers-reduced-motion. closes: [#4612](https://github.com/saadeghi/daisyui/issues/4612)
 
 ## 5.6.13 (2026-07-04)
 
