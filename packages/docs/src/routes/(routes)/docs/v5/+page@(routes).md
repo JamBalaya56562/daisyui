@@ -5,6 +5,7 @@ dir: ltr
 ---
 
 <script>
+  import "../../../../global.css"
   import Translate from "$components/Translate.svelte"
 </script>
 
