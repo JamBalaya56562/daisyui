@@ -1,7 +1,7 @@
 {
   "__code": "ZH",
   "__direction": "ltr",
-  "__name": "中文",
+  "__name": "简体中文",
   "__status": "",
   "Code": "Code 代码",
   "Or": "或",
@@ -89,7 +89,7 @@
   "Use daisyUI from CDN": "通过 CDN 使用 daisyUI",
   "Edit this page on GitHub": "在 GitHub 上编辑此页",
   "Contribute to translation": "贡献翻译",
-  "footer-tagline": "免费的组件库<br/>为工具类优先的 CSS 框架而生",
+  "footer-tagline": "免费的组件库<br />为工具类优先的 CSS 框架而生",
   "how-to-use-components": "如何使用组件",
   "how-to-use-themes": "如何使用主题",
   "related projects": "相关项目",

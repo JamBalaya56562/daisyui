@@ -45,13 +45,21 @@
 
 - "daisyUI" must be written exactly as "daisyUI", with the first letter lowercase "d", and the "UI" part uppercase.
 - Do not translate if there's a comment saying don't translate a specific section
-- Do not translate technical terms of programming, development, web design or design systems
-- Do not translate daisyUI component names or class names
-- Do not translate Brand names or trademarks or product names
-- Do not translate daisyUI color names
+- Keep package names and code identifiers exactly as written. For example, the npm package name `daisyui` stays lowercase because it is a package name.
+- Do not translate technical terms of programming, development, web design, or design systems.
+- Do not translate text inside fenced code blocks, inline backticks, `<code>...</code>`, command names, package names, file names, file paths, URLs, CSS variables, selectors, attributes, values, Svelte expressions, or keyboard shortcuts.
+- Do not translate daisyUI component names or class names.
+- Do not translate brand names, trademarks, product names, library names, framework names, or tool names.
+- Do not translate daisyUI color names.
+- Preserve Markdown and HTML structure exactly in translated values. Keep the same tags, attributes, entities, link URLs, link targets, and link relationship attributes; translate only the visible prose when it is not a protected name or code token.
+- Do not introduce, remove, reorder, or rewrite markup. If the source represents something like `<li>` as code or escaped text, keep it as code or escaped text instead of turning it into a real HTML tag.
+- Preserve interpolation and placeholder syntax exactly, including `{{variable}}` placeholders and Svelte-style expressions such as `{data.themes.length}`.
+- For language metadata in `*.common.json`, keep `__code` as the short uppercase language code and `__direction` as either `ltr` or `rtl`; translate `__name` only to the language's native display name.
 - Do not translate the content from these paths:
   - packages/docs/src/routes/(routes)/docs/upgrade
   - packages/docs/src/routes/(routes)/docs/v5
   - packages/docs/src/routes/(routes)/(marketing)
   - packages/docs/src/routes/(routes)/blog
   - packages/docs/src/routes/(routes)/store
+  - packages/docs/src/lib/scripts
+  - CHANGELOG.md

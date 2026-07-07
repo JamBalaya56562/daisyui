@@ -17,7 +17,7 @@
   "In a Tailwind CSS project, you need to write utility class names for every element. Thousands of class names just to style the most basic elements.": "Într-un proiect Tailwind CSS, trebuie să scrii clase utilitare pentru fiecare element. Mii de clase doar pentru a stiliza cele mai simple elemente.",
   "instead of writing<br /> <span class='text-error'><span class='font-black'>100</span> class names</span>": "în loc să scrii<br /> <span class='text-error'><span class='font-black'>100</span> de clase</span>",
   "For every element, every page, every project,<br/>again and again": "Pentru fiecare element, fiecare pagină, fiecare proiect,<br/>iar și iar",
-  "use <span class='text-success'><span class='font-black'>semantic</span> <br />class names</span>": "folosește <span class='text-success'><span class='font-black'>clase semantice</span> <br />",
+  "use <span class='text-success'><span class='font-black'>semantic</span> <br />class names</span>": "folosește <span class='text-success'><span class='font-black'>class names</span> <br />semantice</span>",
   "It's descriptive, faster, cleaner and easier to maintain.": "Este descriptiv, mai rapid, mai curat și mai ușor de întreținut.",
   "Features": "Funcționalități",
   "Message": "Mesaj",
