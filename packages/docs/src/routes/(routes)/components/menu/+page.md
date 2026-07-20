@@ -98,7 +98,7 @@ classnames:
 </ul>
 
 ```html
-<ul class="$$menu $$menu-paged $$menu-vertical lg:$$menu-horizontal bg-base-200 $$rounded-box w-56 lg:w-auto">
+<ul class="$$menu $$menu-paged $$menu-vertical bg-base-200 $$rounded-box w-56 lg:w-auto">
   <li><a>Home</a></li>
   <li><a>About</a></li>
   <li>
