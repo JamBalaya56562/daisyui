@@ -3,13 +3,13 @@
 </script>
 
 <!-- Without timer -->
-{#if true && !$page.url.pathname.startsWith("/blog/v5.6/")}
+{#if true && !$page.url.pathname.startsWith("/blueprint/")}
   <div class="bg-base-100 flex justify-center rounded-sm">
     <a
-      href="/blog/v5.6/"
+      href="/blueprint/"
       class="alert border-base-300 hover:bg-base-200 bg-base-100 flex w-full justify-center rounded-none border-x-0 border-t-0 p-2 text-center text-xs shadow-none transition-colors"
     >
-      <div class="font-mono text-[0.6875rem]">daisyUI v5.6 is now available!</div>
+      <div class="font-mono text-[0.6875rem]">daisyUI MCP v1.5: Generate unique UIs now!</div>
     </a>
   </div>
 {/if}
