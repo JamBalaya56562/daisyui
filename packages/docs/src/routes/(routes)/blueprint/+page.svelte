@@ -2634,14 +2634,16 @@
           </p>
         </div>
 
-        <div class="carousel carousel-center mt-16 w-full gap-4">
-          <div id="demo-1" class="carousel-item w-[92%] md:w-[68%] lg:w-[49%]">
+        <div
+          class="carousel carousel-center mt-16 w-full gap-4 lg:grid lg:grid-cols-2 lg:overflow-visible"
+        >
+          <div id="demo-1" class="carousel-item w-[92%] md:w-[68%] lg:w-full">
             <article class="card card-border w-full overflow-hidden bg-base-100">
               <div class="aspect-video bg-base-200">
                 <iframe
                   class="h-full w-full"
-                  src="https://www.youtube.com/embed/4ZYKxkibJT0?autoplay=0&controls=1&rel=0&modestbranding=1"
-                  title={$t("Blueprint MCP server converts a Figma design to daisyUI")}
+                  src="https://www.youtube.com/embed/Z70rWqKRitI?autoplay=0&controls=1&rel=0&modestbranding=1"
+                  title="Make a profile settings UI with agents - Blueprint MCP v1.5"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   loading="lazy"
                   allowfullscreen
@@ -2649,13 +2651,41 @@
               </div>
             </article>
           </div>
-          <div id="demo-2" class="carousel-item w-[92%] md:w-[68%] lg:w-[49%]">
+          <div id="demo-2" class="carousel-item w-[92%] md:w-[68%] lg:w-full">
             <article class="card card-border w-full overflow-hidden bg-base-100">
               <div class="aspect-video bg-base-200">
                 <iframe
                   class="h-full w-full"
-                  src="https://www.youtube.com/embed/S4Xz2iEMaAA?autoplay=0&controls=1&rel=0&modestbranding=1"
-                  title={$t("Blueprint MCP server converts Tailwind CSS to daisyUI")}
+                  src="https://www.youtube.com/embed/Y6WAi5ILAKI?autoplay=0&controls=1&rel=0&modestbranding=1"
+                  title="Make a dashboard UI with MCP - Blueprint v1.5"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <div id="demo-3" class="carousel-item w-[92%] md:w-[68%] lg:w-full">
+            <article class="card card-border w-full overflow-hidden bg-base-100">
+              <div class="aspect-video bg-base-200">
+                <iframe
+                  class="h-full w-full"
+                  src="https://www.youtube.com/embed/H2sG-3iL3PA?autoplay=0&controls=1&rel=0&modestbranding=1"
+                  title="Redesign Rails website with Blueprint MCP server v1.5"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </article>
+          </div>
+          <div id="demo-4" class="carousel-item w-[92%] md:w-[68%] lg:w-full">
+            <article class="card card-border w-full overflow-hidden bg-base-100">
+              <div class="aspect-video bg-base-200">
+                <iframe
+                  class="h-full w-full"
+                  src="https://www.youtube.com/embed/IPNnK0mcKoY?autoplay=0&controls=1&rel=0&modestbranding=1"
+                  title="Generate a chat UI with MCP - Blueprint v1.5"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   loading="lazy"
                   allowfullscreen
