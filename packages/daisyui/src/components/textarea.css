@@ -3,6 +3,14 @@
     @apply bg-base-100 rounded-field min-h-20 shrink appearance-none px-3 py-2 align-middle;
 
     --input-color: color-mix(in oklab, var(--color-base-content) 20%, #0000);
+    /* md defaults live on the base (deeper layer = weaker) so size modifiers
+       win regardless of source order in the packed CSS */
+    --font-size-min: 0.875rem;
+
+    .floating-label:has(&) {
+      --top-mul: 5;
+      --font-size: 0.875rem;
+    }
 
     width: clamp(3rem, 20rem, 100%);
     font-size: max(var(--font-size, 0rem), var(--font-size-min));
@@ -181,7 +189,6 @@
   }
 }
 
-.textarea,
 .textarea-md {
   @layer daisyui.l1.l2 {
     --font-size-min: 0.875rem;
