@@ -10,11 +10,6 @@
     --font-size-min: 0.875rem;
     --spin-my: -3;
 
-    .floating-label:has(&) {
-      --top-mul: 5;
-      --font-size: 0.875rem;
-    }
-
     cursor: text;
     width: clamp(3rem, 20rem, 100%);
     height: var(--size);

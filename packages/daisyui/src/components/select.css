@@ -10,11 +10,6 @@
     --font-size-min: 0.875rem;
     --option-px: 3;
 
-    .floating-label:has(&) {
-      --top-mul: 5;
-      --font-size: 0.875rem;
-    }
-
     width: clamp(3rem, 20rem, 100%);
     height: var(--size);
     font-size: max(var(--font-size, 0rem), var(--font-size-min));

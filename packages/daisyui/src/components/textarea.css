@@ -7,11 +7,6 @@
        win regardless of source order in the packed CSS */
     --font-size-min: 0.875rem;
 
-    .floating-label:has(&) {
-      --top-mul: 5;
-      --font-size: 0.875rem;
-    }
-
     width: clamp(3rem, 20rem, 100%);
     font-size: max(var(--font-size, 0rem), var(--font-size-min));
     touch-action: manipulation;
